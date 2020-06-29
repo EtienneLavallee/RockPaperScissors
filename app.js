@@ -7,6 +7,7 @@ const result_p = document.querySelector(".result > p");
 const rock_div = document.getElementById("rock");
 const paper_div = document.getElementById("paper");
 const scissor_div = document.getElementById("scissors");
+const userOrigin_span = document.getElementById("origin");
 
 function getComputerChoice() {
 	const choices = ['rock', 'paper', 'scissors'];
@@ -79,6 +80,7 @@ function main() {
 	scissor_div.addEventListener('click', function() {
 		game("scissors");
 	})
+	userOrigin_span.innerHTML = request.getHeader("referer");
 }
 
 main();
