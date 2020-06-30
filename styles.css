@@ -18,6 +18,11 @@ header > h1 {
 	font-family: Asap, sans-serif;
 }
 
+p {
+	color: #fdf4ec;
+	font-family: Asap, sans-serif;
+}
+
 .score-board {
 	margin: 20px auto;
 	border: 3px solid #fdf4ec;

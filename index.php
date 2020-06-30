@@ -34,9 +34,12 @@
 		</div>
 		
 		<p id="action-message">Make your move</p>
-		<span id="origin">You're coming from:</span>
-		<script src="app.js" charset="utf-8"></script>
-		<br>
-		<a href="https://etiennelavallee.github.io/RockPaperScissors/"> home </a>
+		<p id="origin">You're coming from:</p>
+		<p>
+		<?php
+			echo $_SERVER["HTTP_REFERER"];
+		?>
+		</p>
+		<p><a href="http://35.237.19.27">home</a></p>
 	</body>
 </html>

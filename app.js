@@ -80,7 +80,6 @@ function main() {
 	scissor_div.addEventListener('click', function() {
 		game("scissors");
 	})
-	userOrigin_span.innerHTML = request.getHeader("referer").toString();
 }
 
 main();
